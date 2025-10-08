@@ -11,22 +11,37 @@ If a JSON file has **multiple labels**, it will be copied into **each correspond
 Given a folder of JSON files like:
 
 project/
+
 ├── images/
+
 │ ├── file1.json
+
 │ ├── file2.json
+
 │ └── file3.json
 
 After running the script, you'll get:
 
 project/
+
 ├── categorized/
+
 │ ├── cat/
+
 │ │ ├── file1.json
+
 │ ├── dog/
+
 │ │ ├── file2.json
+
 │ └── unlabeled/
+
 │ ├── file3.json
+
 ├── images/
+
 │ ├── file1.json
+
 │ ├── file2.json
+
 │ └── file3.json
